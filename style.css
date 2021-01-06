@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 50px;
+}
+p{
+    font-size:15 px;
+}
 .name-highlight{
     color:darkblue;
 }
@@ -14,8 +20,22 @@ h1{
     width:40%;
     float:left;
     margin-left: 5%;
-    padding padding-left: 2%;
+     padding-left: 2%;
 }
 .half-width img{
     width:100%;
 }
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(lightsalmon,tomato);
+    padding: 10px,20px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+}
+.single-project{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2px;
+    height: 80%;
+}
+
